@@ -1,0 +1,22 @@
+{
+  "name": "helia-unixfs-example",
+  "version": "0.0.0",
+  "description": "Example using @ipld/unixfs to put blocks to helia.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unixfs",
+    "helia",
+    "ipfs"
+  ],
+  "author": "Alan Shaw",
+  "license": "Apache-2.0 OR MIT",
+  "dependencies": {
+    "@ipld/unixfs": "^2.1.2",
+    "helia": "^3.0.1",
+    "multiformats": "^13.0.1"
+  }
+}
